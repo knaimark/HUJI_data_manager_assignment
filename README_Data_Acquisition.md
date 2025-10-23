@@ -12,6 +12,7 @@ The Python script `models.py` defines a relational database named `era5.db` that
 - a certain date (a one-day subset)
 - a 1°×1° box around certain location
 - a specified list of variables
+
 The script implements **`era5_ERD`** using **SQLAlchemy ORM**. The schema allows the database to: 
 - Prevent redundant downloads by identifying data already stored locally
 - Support efficient queries by date, location, and variable  
